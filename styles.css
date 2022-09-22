@@ -1,0 +1,103 @@
+/*CSS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-500: #000000;
+  --black-400: #0e0e0e;
+  --white-200: #ffffff;
+  --white-100: #f5f5f5;
+
+  --gray--400: #7d7a87;
+  --gray--300: #b9b9b9;
+  --green--500: #04d361;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,200&display=swap");
+
+body {
+  background-color: var(--black-400);
+  
+}
+
+.global {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  contain:style;
+  margin-left: 12.6rem;
+  margin-right: 10.6rem;
+  margin-top: 5rem;
+}
+
+#logo {
+  width: 450px;
+}
+
+#img {
+  width: 339px;
+}
+
+#textos h1 {
+    margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: var(--white-100);
+}
+
+#textos h1 span{
+    font-weight: 700;
+}
+
+#textos p {
+  color: var(--gray--400);
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  margin-right: 20px;
+  margin-top: 1.5rem;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ margin-right: 12.6rem;
+ margin-top: 3.5rem;
+}
+
+
+
+
+
+#email{
+    background-color: var(--white-200);
+    color: var(--gray--300);
+    padding: 0.9rem;
+    padding-right: 15rem;
+    border-radius: 5px;
+    margin-left: 12.6rem;
+    text-decoration: none;
+}
+
+#botao{
+color: var(--white-200);
+background-color: var(--green--500);
+text-decoration: none;
+padding: 0.9rem;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 5px;
+margin-left: 10px;
+}
+
+#label{
+    font-size: 10px;
+    color: var(--green--500);
+    margin-left: 10rem;
+}
